@@ -13,7 +13,6 @@ export class UsersService {
         email: createUserDto.email,
         telefono: createUserDto.telefono,
         rol: createUserDto.rol ?? Rol.AGRICULTOR,
-        // contraseña: Hashearla si la manejas internamente
       },
     });
     return user;
